@@ -114,16 +114,16 @@ android {
     }
     buildTypes {
          debug{
-                buildConfigField "String", "CODEPUSH_KEY", '"_5yx9CYM77P0WWQdfmS63g1-vhhCd972a038-e088-4f37-9c0e-d1a1f2b6c823"'
+                buildConfigField "String", "CODEPUSH_KEY", "_5yx9CYM77P0WWQdfmS63g1-vhhCd972a038-e088-4f37-9c0e-d1a1f2b6c823"
          }
         releaseStaging {
-                buildConfigField "String", "CODEPUSH_KEY", '"_5yx9CYM77P0WWQdfmS63g1-vhhCd972a038-e088-4f37-9c0e-d1a1f2b6c823"'
+                buildConfigField "String", "CODEPUSH_KEY", "_5yx9CYM77P0WWQdfmS63g1-vhhCd972a038-e088-4f37-9c0e-d1a1f2b6c823"
         }
 
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            buildConfigField "String", "CODEPUSH_KEY", '"_VO-n-VUnXICJnrebnu6aO-FBCWkd972a038-e088-4f37-9c0e-d1a1f2b6c823"'
+            buildConfigField "String", "CODEPUSH_KEY", "_VO-n-VUnXICJnrebnu6aO-FBCWkd972a038-e088-4f37-9c0e-d1a1f2b6c823"
         }
     }
     // applicationVariants are e.g. debug, release
